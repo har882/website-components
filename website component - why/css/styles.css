@@ -1,0 +1,73 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #ffffff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+
+
+
+
+/*designing why card*/
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.green p{
+  color: black;
+}
+.magenta img{
+  margin:0 0 0 100px;
+  width: 50%; 
+  height: auto;
+  
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+	
+	
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#main-contain{
+	width: 45%;
+
+	}
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  
+  #main-contain{
+	width: 45%;}
+
+
+  
+
+
+ }

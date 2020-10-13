@@ -1,0 +1,85 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #ffffff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+
+/*designing about me*/
+.circle{
+  position: absolute;
+background: linear-gradient(#cc66ff, #9966ff);
+mix-blend-mode: darken;
+     margin:180px;
+     margin-left: 600px;
+     height:230px;
+     width:230px;
+     border-radius: 120px;
+     text-align: center;
+
+     
+}
+.circle p{
+  font-size: 1rem;
+}
+
+img{
+  margin:100px;
+  margin-left:440px;
+  height: 15%;
+  width: 15%;
+
+}
+
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+	
+	
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	#main-contain{
+	width: 45%;
+
+	}
+	
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+  #main-contain{
+	width: 45%;}
+}
+
+  /*design about me*/
+  /*.circle{
+  position: absolute;
+background: linear-gradient(#cc66ff, #9966ff);
+mix-blend-mode: darken;
+     margin:180px;
+     margin-left: 300px;
+     height:230px;
+     width:230px;
+     border-radius: 120px;
+     text-align: center;
+
+     
+}
+
+
+
+ 
