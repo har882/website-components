@@ -111,6 +111,16 @@ border-bottom-left-radius: 5em 5em;
   margin-top: 280px;
   opacity: 0.5;
 }
+.dot2 {
+  position: absolute;
+ background: linear-gradient(#cc66ff, #9966ff);
+ height:120px;
+  width:120px;
+ border-radius: 90px;
+  margin-left:-160px;
+  margin-top: 380px;
+  opacity: 0.5;
+}
 
 
 
@@ -132,11 +142,29 @@ border-bottom-left-radius: 5em 5em;
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	#main-contain{
-	width: 45%;
+  /*temprary*/
+.dot {
+  position: absolute;
+ background: linear-gradient(#cc66ff, #9966ff);
+ height:150px;
+  width:150px;
+ border-radius: 120px;
+  margin-left:-70px;
+  margin-top: 190px;
+  opacity: 0.5;
+}
+/*temprary*/
+.dot2 {
+  position: absolute;
+ background: linear-gradient(#cc66ff, #9966ff);
+ height:100px;
+  width:100px;
+ border-radius: 90px;
+  margin-left:-150px;
+  margin-top: 250px;
+  opacity: 0.5;
+}
 
-	}
-	
 }
 
 /********** Extra small devices only **********/
@@ -146,24 +174,5 @@ border-bottom-left-radius: 5em 5em;
     padding-top: 10px;
     height: 80px;
   }
-  #main-contain{
-	width: 45%;}
-
-
-
-     
-/*}
-.circle p{
-  font-size: 1rem;
-}
-
-img{
-  margin:100px;
-  margin-left:200px;
-  height: 25%;
-  width: 25%;
-
-}*/
-
-
+ 
  }
